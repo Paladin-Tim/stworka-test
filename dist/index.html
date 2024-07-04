@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Stworka Test</title>
+  </head>
+  <body>
+    <div class="container mx-auto frame">
+      <div
+        class="row g-0 justify-content-center align-items-center flex-nowrap frame__row"
+      >
+        <div class="col-sm-auto frame__col-progress">
+          <span class="frame__progress-label">0/7</span>
+          <svg
+            width="100%"
+            height="100%"
+            viewBox="0 0 250 250"
+            class="circular-progress"
+          >
+            <circle class="bg"></circle>
+            <circle class="fg"></circle>
+          </svg>
+        </div>
+        <div
+          class="col-xl-auto frame__col-text d-flex flex-column justify-content-between"
+        >
+          <span
+            class="badge rounded-pill text-bg-primary frame__badge align-self-start"
+            >Чеклист</span
+          >
+          <h3 class="frame__heading">Выполнено: 0 из 7 действий</h3>
+          <span class="frame__text">
+            Следующее действие: Созвониться с клиентом до 23.05.24 12:00
+          </span>
+        </div>
+        <div class="col-md-auto frame__col-button">
+          <button type="button" class="btn frame__button">
+            Открыть чеклист
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
